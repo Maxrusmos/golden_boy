@@ -1,0 +1,35 @@
+@import 'main.css';
+
+.gal{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.photo_item img{
+	box-sizing: border-box;
+	height: 39vw;
+	max-width: 100%;
+}
+
+.photo_item{
+	width: 45%;
+	margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px){
+	.photo_item{
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin-left: 10px;
+	}
+
+	.photo_item img{
+		height: 100%;
+		width: 100%;
+	}	
+}
